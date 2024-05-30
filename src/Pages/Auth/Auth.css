@@ -1,0 +1,18 @@
+.mobilexallpaper{
+    background-image: url('../../Img/screenshot1\ \(1\).png');
+    animation: changebg 8s infinite;
+}
+
+@keyframes changebg{
+    0%{
+        background-image: url('../../Img/screenshot2.png');
+    }
+    
+    50%{
+        background-image: url("../../Img/screenshot3.png");
+    }
+   
+    100%{
+        background-image: url("../../Img/screenshot1\ \(1\).png");
+    }
+}
